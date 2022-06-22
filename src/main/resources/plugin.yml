@@ -1,0 +1,19 @@
+main: com.renegade.coords.App
+name: renegade-coords
+version: 0.1
+api-version: 1.19
+author: thebenjhoward
+description: Plugin which allows players to display their coordinates without the debug menu
+prefix: RenegadeCoords
+commands:
+    coordinates:
+        description: Displays command list
+        aliases:
+        - coords
+        usage: /coordinates toggle
+        permission: renegadecoords.toggle
+        permission-message: You do not have the permission renegadecoords.toggle
+permissions:
+    renegadecoords.toggle:
+        description: Allows access to coords functionality
+        default: true
